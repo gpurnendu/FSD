@@ -1,0 +1,27 @@
+.change_content:after{
+    content: '';
+    animation: changetext 7s infinite linear;
+    color:rgb(16, 106, 184);
+}
+
+@keyframes changetext{
+    0%{content: "Engineer";}
+    25%{content: "Programmer";}
+    50%{content: "Developer";}
+    75%{content: "Engineer";}
+    100%{content: "Programmer";}
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#drawingArea {
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
